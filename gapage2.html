@@ -12,7 +12,9 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-7ERM4YM3V9');
+  gtag('config', 'G-7ERM4YM3V9', {
+     cookie_flags: "samesite=none;domain=domain.com;secure",
+  });
 </script>
 </head>
 <body>
