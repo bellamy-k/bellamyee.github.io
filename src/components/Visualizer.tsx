@@ -6,7 +6,6 @@ import { cn } from '../lib/utils';
 
 interface VisualizerProps {
   netValue: number;
-  grossValue: number;
   selectedTierId: string;
   onTierChange: (id: string) => void;
   vestingProgress: {
@@ -18,7 +17,6 @@ interface VisualizerProps {
 
 export const Visualizer: React.FC<VisualizerProps> = ({
   netValue,
-  grossValue,
   selectedTierId,
   onTierChange,
   vestingProgress

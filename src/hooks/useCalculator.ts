@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
-import { TAX_REGIONS, TaxRegion } from '../data/taxes';
-import { REAL_ESTATE_TIERS, RealEstateTier } from '../data/tiers';
+import { TAX_REGIONS } from '../data/taxes';
+import { REAL_ESTATE_TIERS } from '../data/tiers';
 
 export function useCalculator() {
   const [rsuCount, setRsuCount] = useState<number>(0);

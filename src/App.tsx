@@ -1,4 +1,3 @@
-import React from 'react';
 import { useCalculator } from './hooks/useCalculator';
 import { Calculator } from './components/Calculator';
 import { TaxSettings } from './components/TaxSettings';
@@ -17,7 +16,6 @@ function App() {
     grantDate, setGrantDate,
     vestingDurationYears, setVestingDurationYears,
     netValue,
-    grossValue,
     taxAmount,
     vestingProgress,
     taxInsights
@@ -79,7 +77,6 @@ function App() {
             <div className="bg-white p-6 sm:p-8 rounded-3xl shadow-xl border border-slate-100 sticky top-8">
               <Visualizer 
                 netValue={netValue}
-                grossValue={grossValue}
                 selectedTierId={selectedTierId}
                 onTierChange={setSelectedTierId}
                 vestingProgress={vestingProgress}

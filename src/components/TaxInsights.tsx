@@ -1,5 +1,5 @@
 import React from 'react';
-import { Plane, TrendingUp, AlertCircle } from 'lucide-react';
+import { Plane, AlertCircle } from 'lucide-react';
 import { cn } from '../lib/utils';
 
 interface TaxInsightsProps {
